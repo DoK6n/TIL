@@ -24,4 +24,4 @@
 
 **[2021.12.26] Interective Web develop**
 > mouse move, parallax scrolling, progress bar  
-> [Interective Web Samples Repo](https://github.com/DoK6n/interective-web-samples, "go repo")
+> [Interective Web Samples Repo](https://github.com/DoK6n/interective-web-samples "go repo")
