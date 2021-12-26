@@ -23,4 +23,5 @@
 > install: termux-style, fish shell, oh-my-fish, z, exa, hexyl, gcc, nodejs, neovim(with lunarvim IDE), mariadb
 
 **[2021.12.26] Interective Web develop**
-> mouse move, parallax scrolling, progress bar
+> mouse move, parallax scrolling, progress bar  
+> [Interective Web Samples Repo](https://github.com/DoK6n/interective-web-samples, "go repo")
