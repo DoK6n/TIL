@@ -21,3 +21,6 @@
 **[2021.12.23] Android Termux어플에 개발환경 구성**
 > termux 단축키 설정 path: ~/.termux/termux.properties  
 > install: termux-style, fish shell, oh-my-fish, z, exa, hexyl, gcc, nodejs, neovim(with lunarvim IDE), mariadb
+
+**[2021.12.26] Interective Web develop**
+> mouse move, parallax scrolling, progress bar
