@@ -31,7 +31,7 @@
 
 **[2021.12.28] 업비트 API 및 사이트 분석** 
 
-**[2021.12.30] AWS DMS 성능 최적화로 속도 향상
+**[2021.12.30] AWS DMS 성능 최적화로 속도 향상**
 > Task 설정: "ParallelApplyThreads": 10, "ParallelApplyBufferSize": 500 -> 약 10배가량 속도 향상
 
 **[2021.12.30] WSL2 Ubuntu-18.04에 개발환경 구성**
