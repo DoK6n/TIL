@@ -37,4 +37,4 @@
 **[2021.12.30] WSL2 Ubuntu-18.04에 개발환경 구성**
 > fish shell, oh-my-fish, z, exa, hexyl, gcc, fzf, nvm, neovim(with lunarvim IDE) 
 
-**[2022.1.2] React Hooks: useState, useEffect 동작 원리 이해를 위한 내부코드 구현
+**[2022.1.2] React Hooks: useState, useEffect 동작 원리 이해를 위한 내부코드 구현**
