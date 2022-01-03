@@ -40,8 +40,9 @@
 **[2022.1.2] React Hooks: useState, useEffect 동작 원리 이해를 위한 내부코드 구현**
 
 **[2022.1.3] AWS DMS TASK 옵션**
-> 대상 테이블 준비 모드(Target table preparation mode): DO_NOTHING, DROP_AND_CREATE, TRUNCATE_BEFORE_LOAD
+> 대상 테이블 준비 모드(Target table preparation mode): DO_NOTHING, DROP_AND_CREATE, TRUNCATE_BEFORE_LOAD  
 > 태스크 Amazon CloudWatch Logs로 태스크 로그 활성화
 
 **[2022.1.3] JS Closure 착각하기 쉬운 부분**
-> 내부에 선언된 함수가 외부함수의 지역변수를 사용해 줬을 때만 클로저라고 선언된다. ( 클로저인 경우 [[Scopes]] 부분에 Closure라는 항목을 확인할 수 있음 )
+> 내부에 선언된 함수가 외부함수의 지역변수를 사용해 줬을 때만 클로저라고 선언됨  
+> 클로저인 경우 console.dir로 [[Scopes]] 부분에 Closure라는 항목을 확인가능
