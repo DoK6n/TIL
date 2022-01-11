@@ -46,3 +46,6 @@
 **[2022.1.3] JS Closure 착각하기 쉬운 부분**
 > 내부에 선언된 함수가 외부함수의 지역변수를 사용해 줬을 때만 클로저라고 선언됨  
 > 클로저인 경우 console.dir로 [[Scopes]] 부분에 Closure라는 항목을 확인가능
+
+**[2022.1.10] React Hooks: 내장 함수 공부**
+> useMemo, useCallback, React.memo, useReducer, Context API, class component lifecycle
