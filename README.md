@@ -49,3 +49,6 @@
 
 **[2022.1.10] React Hooks: 내장 함수 공부**
 > useMemo, useCallback, React.memo, useReducer, Context API, class component lifecycle
+
+**[2022.1.20] Husky로 커밋 메시지 검증하기**
+> Husky, conventional commit, commitlint
