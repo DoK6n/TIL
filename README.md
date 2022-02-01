@@ -52,3 +52,5 @@
 
 **[2022.1.20] Husky로 커밋 메시지 검증하기**
 > Husky, conventional commit, commitlint
+
+**[2022.2.1] NestJS Typeorm Migration**
