@@ -58,3 +58,5 @@
 **[2022.2.2] AWS EC2에 docker에 nginx로 배포 테스트**
 > 참고 영상: https://youtu.be/HvrIPQ77xRY  
 > test link: http://15.164.214.228/hello.html
+
+**[2022.2.3] AWS VPC, 서브넷**  
