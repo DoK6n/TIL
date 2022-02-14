@@ -62,3 +62,6 @@
 **[2022.2.3] AWS VPC, 서브넷**  
 
 **[2022.2.5] docker, docker-compose, nodejs cluster 대용량 트래픽 처리**
+
+**[2022.2.14] AWS IoT Core**  
+> 스마트 디바이스, 제어 디바이스, 디바이스 섀도우, IoT Core, 정책
