@@ -70,3 +70,6 @@
 > https://deno.land/  
 > https://youtu.be/Kg4yubiBZ4A
 
+**[2022.2.15] Apple Login**  
+> apple developer 문서 분석  
+> apple-auth모듈 분석  
