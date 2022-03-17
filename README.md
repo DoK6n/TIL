@@ -73,3 +73,16 @@
 **[2022.2.15] Apple Login**  
 > apple developer 문서 분석  
 > apple-auth모듈 분석  
+
+**[2022.3.17] AWS IoT Core**  
+> 디바이스에 인증서 등록하는 방법 4가지  
+> 1. Bulk Registration  
+>>  - 공장 출하시 장치와 서버에 일괄 등록하는 방법  
+>  
+> 2. JITR(Just int Time Registration), JITP(Just In Time Provisioning)  
+>>  - Bulk Registration과 마찬가지로 장치에 인증서 넣어 출하 후 장치가 AWS IoT에 최초 연결될 때 IoT 서버에 등록하는 방법  
+>>>  - JITR : MQTT Event 및 Lambda 함수를 통해 등록  
+>>>  - JITP : AWS IoT Core API를 통해 등록(JITR 간소화 버전)  
+>  
+> 3. Fleet provisioning  
+>>  - 생산 시 장치에서 동일한 등록용 인증서(프라이빗 키 포함)를 포함 시켜 출하 후 AWS IoT에 최초 연결 시 해당 인증서를 통해 고유 인증서를 발급받는 방법  
