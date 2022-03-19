@@ -86,3 +86,7 @@
 >  
 > 3. Fleet provisioning  
 >>  - 생산 시 장치에서 동일한 등록용 인증서(프라이빗 키 포함)를 포함 시켜 출하 후 AWS IoT에 최초 연결 시 해당 인증서를 통해 고유 인증서를 발급받는 방법  
+
+**[2022.3.19] React useReducer 구현 및 ContextAPI**
+>> useReducer및 Custom useReducer 구현 : https://codesandbox.io/s/usereducer-hx6vu4?file=/src/CustomHooks/CustomHookCounter.js  
+>> ContextAPI을 이용한 상태값 추가 삭제 실습  
