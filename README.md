@@ -90,3 +90,7 @@
 **[2022.3.19] React useReducer 구현 및 ContextAPI**
 >> useReducer및 Custom useReducer 구현 : https://codesandbox.io/s/usereducer-hx6vu4?file=/src/CustomHooks/CustomHookCounter.js  
 >> ContextAPI을 이용한 상태값 추가 삭제 실습  
+
+**[2022.3.22] NodeJS buffer, ArrayBuffer, DataView, TS config**  
+>> Unsigned Int 8bit -> 16bit, 32bit 변환하여 바이너리파일 읽기  
+>> Typescript tsc, ts-node, ts-node-dev, tsconfig.json  
