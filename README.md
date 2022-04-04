@@ -98,3 +98,8 @@
 **[2022.4.1 ~ 4.2] Electron + React + Codemirror로 마크다운 에디터 구현**
 >> Electron + Vue Boilerplate에서 React로 변경  
 >> Codemirror 라이브러리  
+
+**[2022.4.4 ~ 4.5] Electron IPC Module로 Main <-> Renderer 프로세스간 통신 구현**
+>> Renderer -> Main  
+>> Renderer -> Main -> Renderer  
+>> Renderer Upload File -> Main receive File Data  
