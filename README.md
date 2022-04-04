@@ -94,3 +94,7 @@
 **[2022.3.22] NodeJS buffer, ArrayBuffer, DataView, TS config**  
 >> Unsigned Int 8bit -> 16bit, 32bit 변환하여 바이너리파일 읽기  
 >> Typescript tsc, ts-node, ts-node-dev, tsconfig.json  
+
+**[2022.4.1 ~ 4.2] Electron + React + Codemirror로 마크다운 에디터 구현**
+>> Electron + Vue Boilerplate에서 React로 변경  
+>> Codemirror 라이브러리  
