@@ -103,3 +103,10 @@
 >> Renderer -> Main  
 >> Renderer -> Main -> Renderer  
 >> Renderer Upload File -> Main receive File Data  
+
+**[2022.4.6] Elastic Beanstalk AMI Docker 플랫폼 배포 실패 이슈**  
+>> EC2에 올라간 소스와 exec 명령어로 도커 컨테이너에 올라간 빌드된 소스 버전 비교  
+>> 둘이 서로 다른것 확인 후 eb 로그 확인  
+>> C++ 위치정보암호화 모듈사용을 위해 addon build하는 과정에서 실패하여 EB에서 최근 배포 성공한 소스의 컨테이너를 올림  
+>> aws콘솔에서 EB 플랫폼 버전을 업데이트 후 성공  
+
