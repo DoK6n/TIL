@@ -120,7 +120,7 @@
 **[2022.4.10] EC2에 Docker Log 관리**
 > 컨테이너 로그 확인 - `docker log -f {{container id 혹은 name}}`  
 > 컨테이너 로그는 `/var/lib/docker/containers/`에 저장됨  
-> 컨테이너가 완전히 삭제되면 해당 컨테이너의 폴더도 같이 삭제됨
+> 컨테이너가 완전히 삭제되면 해당 컨테이너의 폴더도 같이 삭제됨  
 > Elasticbeanstalk 로그 관리 과정  
 >> - logrotate로 과거,최근 로그 시점과 삭제등 다양한 설정으로 관리  
 >> - cron으로 logrotate를 주기적으로 실행  
