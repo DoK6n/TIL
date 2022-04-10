@@ -125,3 +125,8 @@
 >> - logrotate로 과거,최근 로그 시점과 삭제등 다양한 설정으로 관리  
 >> - cron으로 logrotate를 주기적으로 실행  
 >> - 도커 컨테이너는 awslogs를 이용하며 s3에도 로그를 관리  
+
+**[2022.04.10] Git Log Custom Alias 설정**
+```bash
+git config --global alias.hist "log --graph --all --pretty=format:'%C(yellow)[%ad]%C(reset) %C(green)[%h]%C(reset) | %C(white)%s %C(italic magenta)(%cr) %C(bold red)<%an>%C(reset) %C(blue)%d%C(reset)' --date=short"
+```
