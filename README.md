@@ -88,31 +88,31 @@
 >>  - 생산 시 장치에서 동일한 등록용 인증서(프라이빗 키 포함)를 포함 시켜 출하 후 AWS IoT에 최초 연결 시 해당 인증서를 통해 고유 인증서를 발급받는 방법  
 
 **[2022.3.19] React useReducer 구현 및 ContextAPI**
->> useReducer및 Custom useReducer 구현 : https://codesandbox.io/s/usereducer-hx6vu4?file=/src/CustomHooks/CustomHookCounter.js  
->> ContextAPI을 이용한 상태값 추가 삭제 실습  
+> useReducer및 Custom useReducer 구현 : https://codesandbox.io/s/usereducer-hx6vu4?file=/src/CustomHooks/CustomHookCounter.js  
+> ContextAPI을 이용한 상태값 추가 삭제 실습  
 
 **[2022.3.22] NodeJS buffer, ArrayBuffer, DataView, TS config**  
->> Unsigned Int 8bit -> 16bit, 32bit 변환하여 바이너리파일 읽기  
->> Typescript tsc, ts-node, ts-node-dev, tsconfig.json  
+> Unsigned Int 8bit -> 16bit, 32bit 변환하여 바이너리파일 읽기  
+> Typescript tsc, ts-node, ts-node-dev, tsconfig.json  
 
 **[2022.4.1 ~ 4.2] Electron + React + Codemirror로 마크다운 에디터 구현**
->> Electron + Vue Boilerplate에서 React로 변경  
->> Codemirror 라이브러리  
+> Electron + Vue Boilerplate에서 React로 변경  
+> Codemirror 라이브러리  
 
 **[2022.4.4 ~ 4.5] Electron IPC Module로 Main <-> Renderer 프로세스간 통신 구현**
->> Renderer -> Main  
->> Renderer -> Main -> Renderer  
->> Renderer Upload File -> Main receive File Data  
+> Renderer -> Main  
+> Renderer -> Main -> Renderer  
+> Renderer Upload File -> Main receive File Data  
 
 **[2022.4.6] Elastic Beanstalk AMI Docker 플랫폼 배포 실패 이슈**  
->> EC2에 올라간 소스와 exec 명령어로 도커 컨테이너에 올라간 빌드된 소스 버전 비교  
->> 둘이 서로 다른것 확인 후 eb 로그 확인  
->> C++ 위치정보암호화 모듈사용을 위해 addon build하는 과정에서 실패하여 EB에서 최근 배포 성공한 소스의 컨테이너를 올림  
->> aws콘솔에서 EB 플랫폼 버전을 업데이트 후 성공  
+> EC2에 올라간 소스와 exec 명령어로 도커 컨테이너에 올라간 빌드된 소스 버전 비교  
+> 둘이 서로 다른것 확인 후 eb 로그 확인  
+> C++ 위치정보암호화 모듈사용을 위해 addon build하는 과정에서 실패하여 EB에서 최근 배포 성공한 소스의 컨테이너를 올림  
+> aws콘솔에서 EB 플랫폼 버전을 업데이트 후 성공  
 
 **[2022.4.7] JS Bundler Vite**
->> 기존 번들러보다 빠르게 번들링이 가능한 빌드 도구  
->> 앱을 종속성과 소스코드 두 가지 범주로 나누어 시작시간을 대폭 향상  
->> 의존성이 큰 앱의 경우 ESBuild로 종속성을 사전 번들링함  
->> ESBuild는 Go로 작성되어 매우 빠름  
->> vue, react, preact, lit, vanila, lit, svelte등 기본 템플릿 제공  
+> 기존 번들러보다 빠르게 번들링이 가능한 빌드 도구  
+> 앱을 종속성과 소스코드 두 가지 범주로 나누어 시작시간을 대폭 향상  
+> 의존성이 큰 앱의 경우 ESBuild로 종속성을 사전 번들링함  
+> ESBuild는 Go로 작성되어 매우 빠름  
+> vue, react, preact, lit, vanila, lit, svelte등 기본 템플릿 제공  
