@@ -116,3 +116,12 @@
 > 의존성이 큰 앱의 경우 ESBuild로 종속성을 사전 번들링함  
 > ESBuild는 Go로 작성되어 매우 빠름  
 > vue, react, preact, lit, vanila, lit, svelte등 기본 템플릿 제공  
+
+**[2022.4.10] EC2에 Docker Log 관리**
+> 컨테이너 로그 확인 - `docker log -f {{container id 혹은 name}}`  
+> 컨테이너 로그는 `/var/lib/docker/containers/`에 저장됨  
+> 컨테이너가 완전히 삭제되면 해당 컨테이너의 폴더도 같이 삭제됨
+> Elasticbeanstalk 로그 관리 과정  
+>> - logrotate로 과거,최근 로그 시점과 삭제등 다양한 설정으로 관리  
+>> - cron으로 logrotate를 주기적으로 실행  
+>> - 도커 컨테이너는 awslogs를 이용하며 s3에도 로그를 관리  
