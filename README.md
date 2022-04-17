@@ -130,3 +130,14 @@
 ```bash
 git config --global alias.hist "log --graph --all --pretty=format:'%C(yellow)[%ad]%C(reset) %C(green)[%h]%C(reset) | %C(white)%s %C(italic magenta)(%cr) %C(bold red)<%an>%C(reset) %C(blue)%d%C(reset)' --date=short"
 ```
+
+**[2022.4.16 ~ 17] Nginx 로드밸런싱과 Docker 컨테이너 포트 관련**
+> upstream을 이용한 로드밸런싱  
+> Dockerfile EXPOSE와 docker run -p의 차이점  
+>> EXPOSE  
+>>> Dockerfile로 build한 image로 띄운 컨테이너의 포트를 외부로 개방  
+>>> 하지만 사용자가 해당 포트로 접근하는것은 아니며 호스트OS로 들어오는 포트와 해당 포트를 매핑시켜야 함  
+>   
+>> docker run -p 80:3000  
+>>> 호스트OS와 컨테이너의 포트를 매핑  
+>>> 좌측 [실사용자가 접근할 포트] : 우측 [컨테이너의 포트]  
