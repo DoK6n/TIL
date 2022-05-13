@@ -141,3 +141,5 @@ git config --global alias.hist "log --graph --all --pretty=format:'%C(yellow)[%a
 >> docker run -p 80:3000  
 >>> 호스트OS와 컨테이너의 포트를 매핑  
 >>> 좌측 [실사용자가 접근할 포트] : 우측 [컨테이너의 포트]  
+
+**[2022.4.24 ~ 25] S3, CloudFront, Route53 배포**  
