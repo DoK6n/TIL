@@ -146,3 +146,16 @@ git config --global alias.hist "log --graph --all --pretty=format:'%C(yellow)[%a
 >>> 좌측 [실사용자가 접근할 포트] : 우측 [컨테이너의 포트]  
 
 **[2022.4.24 ~ 25] S3, CloudFront, Route53 배포**  
+
+**[2022.5.1] zustand**
+> 상태관리 라이브러리 zustand  
+> 미들웨어를 통해 react-devtools 사용 가능  
+> Provider로 래핑하지 않아도 됨  
+> boilerplate가 적음  
+> 원본 코드는 Typescript로 작성  
+> Zustand는 발행/구독 모델을 기반이며 클로저를 활용  
+> Context API를 사용할 때와 달리 상태 변경 시 불필요한 리렌더링을 일으키지 않도록 제어하기 쉽다  
+>> Context API의 불필요한 리렌더링 해결 방안  
+>> - 하나의 거대한 값을 가진 Context를 만들지 말고 여럿으로 분리하여 필요한 부분만 사용하기  
+>> - 컴포넌트를 쪼개고 React.memo 를 활용하기  
+>> - useMemo 훅을 사용하여 컴포넌트 랜더링 부분을 감싸기  
