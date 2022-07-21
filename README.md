@@ -159,3 +159,8 @@ git config --global alias.hist "log --graph --all --pretty=format:'%C(yellow)[%a
 >> - 하나의 거대한 값을 가진 Context를 만들지 말고 여럿으로 분리하여 필요한 부분만 사용하기  
 >> - 컴포넌트를 쪼개고 React.memo 를 활용하기  
 >> - useMemo 훅을 사용하여 컴포넌트 랜더링 부분을 감싸기  
+
+**[2022.5.12] markdown preview editor (velog 참조)**  
+> editor : codemirror6  
+> preview : react-markdown  
+> 링크 : [preview editor](https://podote.com/test)  
