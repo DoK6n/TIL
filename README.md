@@ -164,3 +164,9 @@ git config --global alias.hist "log --graph --all --pretty=format:'%C(yellow)[%a
 > editor : codemirror6  
 > preview : react-markdown  
 > 링크 : [preview editor](https://podote.com/test)  
+
+**[2022.6.1] React `JS` &#8594; `TS`로 전환 작업**  
+> [링크](https://github.com/DoK6n/podote/commit/2eaa7a76b5ec4438a5b630628bb5914e29cd382b)  
+> `이슈`: 사용하던 [react-clipboard-button](https://github.com/guipas/react-clipboard-button) 라이브러리에서 TS로 전환하는 과정에서 children type 관련 이슈 발생  
+> `오픈소스 기여`: 수정하여 [PR](https://github.com/guipas/react-clipboard-button/pull/3) 보냈지만 답장이 늦어질것 같아 라이브러리 소스가 몇줄 안되서 프로젝트 내로 옮김  
+> 현재는 `closed` 됨.  
