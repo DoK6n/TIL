@@ -170,3 +170,6 @@ git config --global alias.hist "log --graph --all --pretty=format:'%C(yellow)[%a
 > `이슈`: 사용하던 [react-clipboard-button](https://github.com/guipas/react-clipboard-button) 라이브러리에서 TS로 전환하는 과정에서 children type 관련 이슈 발생  
 > `오픈소스 기여`: 수정하여 [PR](https://github.com/guipas/react-clipboard-button/pull/3) 보냈지만 답장이 늦어질것 같아 라이브러리 소스가 몇줄 안되서 프로젝트 내로 옮김  
 > 현재는 `closed` 됨.  
+
+**[2022.7.22] React + Firebase Google Auth**  
+> React에서 Firebase Auth로 Google 인증  
