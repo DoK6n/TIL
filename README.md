@@ -173,3 +173,20 @@ git config --global alias.hist "log --graph --all --pretty=format:'%C(yellow)[%a
 
 **[2022.7.22] React + Firebase Google Auth**  
 > React에서 Firebase Auth로 Google 인증  
+
+**[2022.8.2 Docker Volumn + postgresql**    
+> ```bash 
+> $ mkdir /Users/Shared/databases/postgresql/data    # DB 데이터 저장할 로컬PC 경로
+> $ docker pull postgres:latest     # postgres 이미지 받음
+> $ dokcer run -p 5432:5432 --name postgres-container \     # postgres 이미지로 컨테이너 띄움 - 데이터의 영속성을 위해 볼륨옵션 추가
+>  -e POSTGRES_PASSWORD=1234 \
+>  -v /Users/Shared/databases/postgresql/data:/var/lib/postgresql/data -d \     # : 를 기준으로 데이터가 저장될 경로를 나눔 
+>  postgres:latest                                                              # -> 로컬 PC 경로 : 컨테이너 내 경로
+>  
+> $ docker ps
+> $ docker exec -li postgres-container \bin\sh   # container 접속
+>  $ psql -U postgresql   # db 접속
+>  # CREATE DATABASE test;    # 확인용 DB 추가
+> $ docker rm -f postgres-container    # 컨테이너 삭제
+> # 다시 docker run후 test db 추가되어있는지 확인
+> ```  
