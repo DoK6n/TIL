@@ -184,7 +184,7 @@ git config --global alias.hist "log --graph --all --pretty=format:'%C(yellow)[%a
 >  postgres:latest                                                              # -> 로컬 PC 경로 : 컨테이너 내 경로
 >  
 > $ docker ps
-> $ docker exec -li postgres-container \bin\sh   # container 접속
+> $ docker exec -it postgres-container \bin\sh   # container 접속
 >  $ psql -U postgresql   # db 접속
 >  # CREATE DATABASE test;    # 확인용 DB 추가
 > $ docker rm -f postgres-container    # 컨테이너 삭제
