@@ -161,9 +161,9 @@ git config --global alias.hist "log --graph --all --pretty=format:'%C(yellow)[%a
 >> - useMemo 훅을 사용하여 컴포넌트 랜더링 부분을 감싸기  
 
 **[2022.5.12] markdown preview editor (velog 참조)**  
-> editor : codemirror6  
+> editor : codemirror6  (_velog : codemirror5_)  
 > preview : react-markdown  
-> 링크 : [preview editor](https://podote.com/test)  
+> 링크 : [preview editor playground](https://podote.com/mdplayground)  
 
 **[2022.6.1] React `JS` &#8594; `TS`로 전환 작업**  
 > [링크](https://github.com/DoK6n/podote/commit/2eaa7a76b5ec4438a5b630628bb5914e29cd382b)  
