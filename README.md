@@ -190,3 +190,10 @@ git config --global alias.hist "log --graph --all --pretty=format:'%C(yellow)[%a
 > $ docker rm -f postgres-container    # 컨테이너 삭제
 > # 다시 docker run후 test db 추가되어있는지 확인
 > ```  
+
+**[2022.8.3] 도커환경에서 NestJS 및 Prisma로 REST API 빌드**  
+> [NestJS 및 Prisma로 REST API 빌드 - Prisma 공식 블로그 글](https://www.prisma.io/blog/nestjs-prisma-rest-api-7D056s1BmOL0)  
+> - [샘플로 만든 앱 깃허브 레포지토리](https://github.com/DoK6n/nest-prisma-docker-template/tree/rest)  
+> 1. docker-compose로 서버와 DB 연동하며 개발환경과 운영환경 구축
+> 2. Nestjs와 Prisma 연동하고 seed 데이터 추가
+> 3. RESTAPI 구축
